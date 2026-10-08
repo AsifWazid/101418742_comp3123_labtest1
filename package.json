@@ -1,0 +1,13 @@
+{
+  "name": "101418742_comp3123_labtest1",
+  "version": "1.0.0",
+  "description": "Lab Test 1 for COMP3123",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Asif Wazid",
+  "license": "ISC",
+  "type": "commonjs"
+}
