@@ -1,3 +1,15 @@
-const question1 = require('./question1');
-const question2 = require('./question2');
-const question3 = require('./question3');
+const lowerCaseWords = require('./question1');
+
+console.log("Question 1:");
+
+const mixedArray = ['PIZZA', 10, true, 25, false, 'Wings'];
+
+lowerCaseWords(mixedArray)
+    .then(result => {
+        console.log(result);
+
+        console.log("\nQuestion 2:");
+        require('./callbacks');
+    })
+    .catch(error => console.log(error));
+
